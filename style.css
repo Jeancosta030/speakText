@@ -46,3 +46,21 @@ button {
     border-radius: 7px;
 }
 
+@media only screen and (max-width:500px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.404);
+        width: 70%;
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+        margin: 40%;
+        border-radius: 20px;
+        color: white;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
